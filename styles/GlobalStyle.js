@@ -1,9 +1,7 @@
 import { createGlobalStyle } from "styled-components"
 import variables from "./variables"
 
-const GlobalStyle = createGlobalStyle`
-  /* @import url("https://fonts.googleapis.com/css2?family=Fira+Code&display=swap"); */
-  
+const GlobalStyle = createGlobalStyle`  
   ${variables};
 
   html,
