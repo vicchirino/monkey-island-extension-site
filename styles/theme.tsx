@@ -15,7 +15,7 @@ const theme = {
     red: "#C0413E",
     title_pink: "#E42AE0",
   },
-}
+};
 
 export const colors = [
   "#242225",
@@ -32,6 +32,6 @@ export const colors = [
   "#A65A4C",
   "#C0413E",
   "#E42AE0",
-]
+];
 
-export default theme
+export default theme;
