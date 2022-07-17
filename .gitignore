@@ -35,5 +35,4 @@ yarn-error.log*
 *.tsbuildinfo
 
 # prettier
-.prettierrc
 .prettierignore
