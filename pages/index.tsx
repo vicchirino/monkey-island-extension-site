@@ -1,16 +1,16 @@
-import type { NextPage } from "next";
-import styled from "styled-components";
-import { colors } from "../styles/theme";
-import { Github } from "@styled-icons/boxicons-logos/Github";
-import { shake } from "../styles/transitions";
-import Tooltip from "../components/Tooltip";
+import type { NextPage } from "next"
+import styled from "styled-components"
+import { colors } from "../styles/theme"
+import { Github } from "@styled-icons/boxicons-logos/Github"
+import { shake } from "../styles/transitions"
+import Tooltip from "../components/Tooltip"
 
 const Title = styled.h1`
   font-size: 75px;
   font-weight: 500;
   text-align: center;
   color: ${({ theme }) => theme.colors.title_pink};
-`;
+`
 
 const ThemesWrapper = styled.div`
   display: flex;
@@ -19,7 +19,7 @@ const ThemesWrapper = styled.div`
   justify-content: center;
   width: 80%;
   margin: auto;
-`;
+`
 
 const Link = styled.a`
   text-decoration: none;
@@ -40,51 +40,51 @@ const Link = styled.a`
     bottom: 0;
     height: 100%;
   }
-`;
+`
 
 const ThemeTitleWrapper = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
   align-self: flex-start;
-`;
+`
 
 const Image = styled.img`
   object-fit: contain;
   width: 100%;
   border: 2px solid var(--ocean-blue);
-`;
+`
 
 const H2 = styled.h2`
   color: ${({ theme }) => theme.colors.gold_orange};
   font-size: 40px;
   font-weight: 500;
   align-self: flex-start;
-`;
+`
 
 const Paragraph = styled.p`
   color: ${({ theme }) => theme.colors.gold_orange};
   font-size: 30px;
   font-weight: 400;
-`;
+`
 
 const Spacer = styled.div`
   height: 50px;
-`;
+`
 
 const ReferencesWrapper = styled.div`
   display: flex;
   flex-direction: column;
   width: 100%;
   justify-content: space-between;
-`;
+`
 const ImagesRows = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
   height: 50%;
-`;
+`
 
 const ReferenceImageWrapper = styled.div`
   display: flex;
@@ -92,14 +92,14 @@ const ReferenceImageWrapper = styled.div`
   height: 100%;
   justify-content: center;
   padding: 10px;
-`;
+`
 
 const ReferenceImage = styled.img`
   object-fit: contain;
   height: auto;
   width: 100%;
   border: 2px solid var(--ocean-blue);
-`;
+`
 
 const PaletteWrapper = styled.div`
   display: flex;
@@ -107,14 +107,14 @@ const PaletteWrapper = styled.div`
   justify-content: space-between;
   width: 80%;
   height: 200px;
-`;
+`
 const PaletteRow = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: center;
   width: 100%;
   height: 50%;
-`;
+`
 
 const PaletteItemWrapper = styled.div`
   display: flex;
@@ -123,11 +123,11 @@ const PaletteItemWrapper = styled.div`
   justify-content: center;
   padding: 5px;
   align-items: center;
-`;
+`
 
 const PaletteItemLink = styled.a`
   text-decoration: none;
-`;
+`
 
 const PaletteItem = styled.div`
   height: 80px;
@@ -150,7 +150,7 @@ const PaletteItem = styled.div`
     width: 40px;
     border-radius: 20px;
   }
-`;
+`
 
 const BuiltByWrapper = styled.div`
   display: flex;
@@ -160,7 +160,7 @@ const BuiltByWrapper = styled.div`
   align-self: center;
   justify-content: center;
   align-items: center;
-`;
+`
 
 const BuiltByLink = styled.a`
   font-size: 30px;
@@ -184,7 +184,7 @@ const BuiltByLink = styled.a`
     bottom: 0;
     height: 100%;
   }
-`;
+`
 
 const IconWrapper = styled.a`
   padding-left: 20px;
@@ -192,15 +192,15 @@ const IconWrapper = styled.a`
   :hover {
     animation: ${shake} 150ms 2 linear;
   }
-`;
+`
 
 const GithubIcon = styled(Github)`
   color: ${({ theme }) => theme.colors.gold_orange};
-`;
+`
 
 const Home: NextPage = () => {
-  const firstSetOfColors = colors.slice(0, 7);
-  const secondSetOfColors = colors.slice(7, 14);
+  const firstSetOfColors = colors.slice(0, 7)
+  const secondSetOfColors = colors.slice(7, 14)
   return (
     <>
       <Title>Monkey Island Themes</Title>
@@ -293,7 +293,7 @@ const Home: NextPage = () => {
       </BuiltByWrapper>
       <Spacer />
     </>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home

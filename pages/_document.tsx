@@ -1,5 +1,5 @@
-import Document, { Html, Head, Main, NextScript } from "next/document";
-import Favicon from "../components/Favicon";
+import Document, { Html, Head, Main, NextScript } from "next/document"
+import Favicon from "../components/Favicon"
 
 class MyDocument extends Document {
   render() {
@@ -18,8 +18,8 @@ class MyDocument extends Document {
           <NextScript />
         </body>
       </Html>
-    );
+    )
   }
 }
 
-export default MyDocument;
+export default MyDocument

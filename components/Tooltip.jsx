@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from "styled-components"
 
 const TooltipText = styled.span`
    {
@@ -34,7 +34,7 @@ const TooltipText = styled.span`
       padding: 2px;
     }
   }
-`;
+`
 
 const TooltipWrapper = styled.div`
    {
@@ -44,13 +44,13 @@ const TooltipWrapper = styled.div`
       visibility: visible;
     }
   }
-`;
+`
 
 const Tooltip = ({ children, text }) => (
   <TooltipWrapper>
     {children}
     <TooltipText>{text}</TooltipText>
   </TooltipWrapper>
-);
+)
 
-export default Tooltip;
+export default Tooltip

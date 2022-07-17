@@ -1,5 +1,5 @@
-import { createGlobalStyle } from "styled-components";
-import variables from "./variables";
+import { createGlobalStyle } from "styled-components"
+import variables from "./variables"
 
 const GlobalStyle = createGlobalStyle`  
   ${variables};
@@ -27,6 +27,6 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
     font-family: "Fira Code", sans-serif;
   }
-`;
+`
 
-export default GlobalStyle;
+export default GlobalStyle
